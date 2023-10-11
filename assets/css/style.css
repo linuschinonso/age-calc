@@ -1,0 +1,38 @@
+ /* Add these CSS styles to your existing styles */
+.bg1 {
+  width: 100%;
+  max-width: 700px; /* Keep a maximum width for content */
+  height: auto; /* Responsive height */
+  background-color: #fff;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 20px auto; /* Center the container */
+  padding: 20px;
+}
+
+.heading {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.li1, .li2, .li3 {
+  font-size: 20px;
+  margin-right: 50px;
+  font-weight: 500;
+}
+
+.square-input {
+  width: 100%; /* Take up the full width of their container */
+  max-width: 200px; /* Limit the maximum width */
+  height: 60px;
+  margin-top: 20px;
+}
+
+.age {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center; /* Center the text */
+  margin-top: 20px;
+}

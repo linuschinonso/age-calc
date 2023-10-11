@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        .bg1 {
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Center content vertically */
+        }
+        
+        .container {
+            padding: 20px;
+            text-align: center; /* Center content horizontally */
+        }
+        
+        .square-input {
+            width: 100%; /* Use percentage to make it responsive */
+            margin-top: 20px;
+        }
+        
+        .age {
+            font-size: 30px; /* Reduce font size for better readability */
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <section class="bg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="day">Day</label>
+                        <input type="text" id="day" class="form-control square-input">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="month">Month</label>
+                        <input type="text" id="month" class="form-control square-input">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="year">Year</label>
+                        <input type="text" id="year" class="form-control square-input">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <hr class="bg-light" style="height: 1px; width: 100%;"> <!-- Make the line full width -->
+        </div>
+
+        <div class="container age">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p><span class="text-primary">38</span> years</p>
+                </div>
+                <div class="col-sm-4">
+                    <p><span class="text-primary">3</span> Months</p>
+                </div>
+                <div class="col-sm-4">
+                    <p><span class="text-primary">26</span> days</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
